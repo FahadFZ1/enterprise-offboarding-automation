@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="2d1fa266934b0310f7f270d19dba10d0" extends="task" label="Offboarding Request" max_length="40" name="x_1913323_enterp_0_offboarding_request" type="collection">
+        <element label="System Access Revoked" max_length="40" name="system_access_revoked" type="boolean"/>
+        <element label="Target Employee" max_length="32" name="target_employee" reference="sys_user" type="reference"/>
+        <element label="Asset Count" max_length="40" name="asset_count" type="integer"/>
+        <element label="Departure Date" max_length="40" name="departure_date" type="glide_date"/>
+        <element choice="3" default="pending" label="Revocation Status" max_length="40" name="revocation_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Success" sequence="2" value="success"/>
+                <element inactive_on_update="false" label="Pending" sequence="0" value="pending"/>
+                <element inactive_on_update="false" label="Failed" sequence="3" value="failed"/>
+                <element inactive_on_update="false" label="In Progress" sequence="1" value="in_progress"/>
+            </choice>
+        </element>
+    </element>
+</database>
