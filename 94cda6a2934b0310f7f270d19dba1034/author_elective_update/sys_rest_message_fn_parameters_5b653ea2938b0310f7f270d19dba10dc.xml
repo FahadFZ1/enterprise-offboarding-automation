@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_parameters">
+    <sys_rest_message_fn_parameters action="DELETE">
+        <name>user_id</name>
+        <rest_message_function display_value="Deactivate User">96747e22938b0310f7f270d19dba10e0</rest_message_function>
+        <sys_class_name>sys_rest_message_fn_parameters</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-03 23:59:18</sys_created_on>
+        <sys_id>5b653ea2938b0310f7f270d19dba10dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>user_id</sys_name>
+        <sys_package display_value="Enterprise Offboarding Automation" source="x_1913323_enterp_0">94cda6a2934b0310f7f270d19dba1034</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Enterprise Offboarding Automation">94cda6a2934b0310f7f270d19dba1034</sys_scope>
+        <sys_update_name>sys_rest_message_fn_parameters_5b653ea2938b0310f7f270d19dba10dc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-03 23:59:18</sys_updated_on>
+        <type>string</type>
+        <value>EMP1001</value>
+    </sys_rest_message_fn_parameters>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Enterprise Offboarding Automation">94cda6a2934b0310f7f270d19dba1034</application>
+        <file_path/>
+        <instance_id>a502a6d0ffa8a214c812f8e4fc4fd977</instance_id>
+        <instance_name>dev308138</instance_name>
+        <name>sys_rest_message_fn_parameters_5b653ea2938b0310f7f270d19dba10dc</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_parameters"><sys_rest_message_fn_parameters action="INSERT_OR_UPDATE"><name>user_id</name><rest_message_function display_value="Deactivate User">96747e22938b0310f7f270d19dba10e0</rest_message_function><sys_class_name>sys_rest_message_fn_parameters</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-03 23:59:18</sys_created_on><sys_id>5b653ea2938b0310f7f270d19dba10dc</sys_id><sys_mod_count>0</sys_mod_count><sys_name>user_id</sys_name><sys_package display_value="Enterprise Offboarding Automation" source="x_1913323_enterp_0">94cda6a2934b0310f7f270d19dba1034</sys_package><sys_policy/><sys_scope display_value="Enterprise Offboarding Automation">94cda6a2934b0310f7f270d19dba1034</sys_scope><sys_update_name>sys_rest_message_fn_parameters_5b653ea2938b0310f7f270d19dba10dc</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-03 23:59:18</sys_updated_on><type>string</type><value>EMP1001</value></sys_rest_message_fn_parameters></record_update>]]></payload>
+        <payload_hash>-524363079</payload_hash>
+        <record_name>user_id</record_name>
+        <reverted_from/>
+        <source>5ccda6a2934b0310f7f270d19dba1062</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-03 23:59:18</sys_created_on>
+        <sys_id>20b576e2938b0310f7f270d19dba1018</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a069b66e760000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-03 23:59:18</sys_updated_on>
+        <type>Variable Substitutions</type>
+        <update_guid>ecb576e2018b0310f12ec5f89cbb6e16</update_guid>
+        <update_guid_history>ecb576e2018b0310f12ec5f89cbb6e16:-524363079</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-04 00:02:35</sys_created_on>
+        <sys_db_object display_value="" name="sys_rest_message_fn_parameters">sys_rest_message_fn_parameters</sys_db_object>
+        <sys_id>3b08303f57bb41c0bf0a007daaef5900</sys_id>
+        <sys_metadata>5b653ea2938b0310f7f270d19dba10dc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>user_id</sys_name>
+        <sys_package display_value="Enterprise Offboarding Automation" source="x_1913323_enterp_0">94cda6a2934b0310f7f270d19dba1034</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Enterprise Offboarding Automation">94cda6a2934b0310f7f270d19dba1034</sys_scope>
+        <sys_scope_delete display_value="">239d1ac1d4794b0487e22928a3280584</sys_scope_delete>
+        <sys_update_name>sys_rest_message_fn_parameters_5b653ea2938b0310f7f270d19dba10dc</sys_update_name>
+        <sys_update_version display_value="sys_rest_message_fn_parameters_5b653ea2938b0310f7f270d19dba10dc">20b576e2938b0310f7f270d19dba1018</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-04 00:02:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
