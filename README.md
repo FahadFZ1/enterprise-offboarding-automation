@@ -15,18 +15,21 @@ Manual offboarding processes expose enterprises to security risks, stranded hard
 ## ⚙️ Architecture & Automation Logic (Flow Designer)
 
 The core workflow triggers dynamically upon creating an offboarding request and executes three distinct streams:
+
+```
 [Trigger: Offboarding Request Created]
-│
-├──► [IAM Deprovisioning & Security Check]
-│           ├── Target is Admin? ──► Skip Lockout (Safety Prevention)
-│           └── Target is Non-Admin ──► Update sys_user (Active: false, Locked out: true)
-│
-├──► [CMDB Asset Recovery Check]
-│           ├── Asset Count == 0 ──► Automatically Complete Request
-│           └── Asset Count > 0 ──► Generate Sub-Task for Hardware Collection
-│
-└──► [Organizational Continuity Check]
-└── Manages Groups in sys_user_group? ──► Generate Sub-Task for Manager Reassignment
+        │
+        ├──► [IAM Deprovisioning & Security Check]
+        │           ├── Target is Admin? ──► Skip Lockout (Safety Prevention)
+        │           └── Target is Non-Admin ──► Update sys_user (Active: false, Locked out: true)
+        │
+        ├──► [CMDB Asset Recovery Check]
+        │           ├── Asset Count == 0 ──► Automatically Complete Request
+        │           └── Asset Count > 0 ──► Generate Sub-Task for Hardware Collection
+        │
+        └──► [Organizational Continuity Check]
+                    └── Manages Groups in sys_user_group? ──► Generate Sub-Task for Manager Reassignment
+```
 ---
 
 ## 🛠️ Key Technical Implementations
