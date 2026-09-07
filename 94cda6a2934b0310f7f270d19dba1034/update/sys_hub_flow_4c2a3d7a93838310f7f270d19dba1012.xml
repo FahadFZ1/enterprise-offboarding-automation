@@ -4,7 +4,7 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=96837000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=270677000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>28100</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -15,14 +15,14 @@
         <flow_priority>MEDIUM</flow_priority>
         <generation_source/>
         <internal_name>enterprise_offboarding_process</internal_name>
-        <label_cache>[{"name":"Created_1.current.target_employee","label":"Trigger - Record Created➛Offboarding Request Record➛Target Employee","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_1913323_enterp_0_offboarding_request","column_name":"target_employee","choices":[{"order":0.0}],"usedInstances":{}},{"name":"Created_1.current","label":"Trigger - Record Created➛Offboarding Request Record","reference":"x_1913323_enterp_0_offboarding_request","reference_display":"Offboarding Request","type":"reference","base_type":"reference","usedInstances":{"213b4c28-6e66-43b1-afa8-5a3126e47c66":["record"],"58255e7f-e748-4292-844b-8adb7458c9aa":["parent"]},"attributes":{}},{"name":"Created_1.current.asset_count","label":"Trigger - Record Created➛Offboarding Request Record➛Asset Count","reference":"","reference_display":"Asset Count","type":"integer","base_type":"integer","parent_table_name":"x_1913323_enterp_0_offboarding_request","column_name":"asset_count","choices":[{"order":0.0}],"usedInstances":{"ec8b5d8a-4c48-4ac3-b8cf-ffc1e8d3abfd":["condition"]}},{"name":"213b4c28-6e66-43b1-afa8-5a3126e47c66.record","label":"2 - Update Record➛Offboarding Request Record","reference":"x_1913323_enterp_0_offboarding_request","reference_display":"Offboarding Request","type":"reference","base_type":"reference","usedInstances":{},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.target_employee.user_name","label":"Trigger - Record Created➛Offboarding Request Record➛Target Employee➛User ID","reference":"","reference_display":"User ID","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"user_name","choices":[{"order":0.0}],"usedInstances":{"17ad82af-9b04-4832-a309-bc30555a4894":["user_id"]}}]</label_cache>
+        <label_cache>[{"name":"Created_1.current.target_employee.user_name","label":"Trigger - Record Created➛Offboarding Request Record➛Target Employee➛User ID","reference":"","reference_display":"User ID","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"user_name","choices":[{"order":0.0}],"usedInstances":{"17ad82af-9b04-4832-a309-bc30555a4894":["user_id"]}},{"name":"213b4c28-6e66-43b1-afa8-5a3126e47c66.record","label":"2 - Update Record➛Offboarding Request Record","reference":"x_1913323_enterp_0_offboarding_request","reference_display":"Offboarding Request","type":"reference","base_type":"reference","usedInstances":{},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.asset_count","label":"Trigger - Record Created➛Offboarding Request Record➛Asset Count","reference":"","reference_display":"Asset Count","type":"integer","base_type":"integer","parent_table_name":"x_1913323_enterp_0_offboarding_request","column_name":"asset_count","choices":[{"order":0.0}],"usedInstances":{"ec8b5d8a-4c48-4ac3-b8cf-ffc1e8d3abfd":["condition"]}},{"name":"Created_1.current","label":"Trigger - Record Created➛Offboarding Request Record","reference":"x_1913323_enterp_0_offboarding_request","reference_display":"Offboarding Request","type":"reference","base_type":"reference","usedInstances":{"213b4c28-6e66-43b1-afa8-5a3126e47c66":["record"],"58255e7f-e748-4292-844b-8adb7458c9aa":["parent"],"f3eaa389-b1c8-4a7f-acaf-fe81d24606ed":["parent"]},"attributes":{}},{"name":"Created_1.current.target_employee","label":"Trigger - Record Created➛Offboarding Request Record➛Target Employee","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_1913323_enterp_0_offboarding_request","column_name":"target_employee","usedInstances":{"9e7a9f0e-281d-4408-a323-8cd410e8d6f7":["record"],"4fe9d29e-aa77-4bb2-b7a3-6f9d4c654be9":["conditions"]}},{"name":"213b4c28-6e66-43b1-afa8-5a3126e47c66.record.target_employee.user_name","label":"2 - Update Record➛Offboarding Request Record➛Target Employee➛User ID","reference":"","reference_display":"User ID","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"user_name","usedInstances":{"44810f47-bf1b-4e07-9188-c9e3e7e36ca5":["condition"]}},{"name":"213b4c28-6e66-43b1-afa8-5a3126e47c66.record.target_employee","label":"2 - Update Record➛Offboarding Request Record➛Target Employee","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_1913323_enterp_0_offboarding_request","column_name":"target_employee","usedInstances":{}},{"name":"4fe9d29e-aa77-4bb2-b7a3-6f9d4c654be9.Count","label":"9 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","usedInstances":{"1b892d78-30a8-4a8d-a600-ced55ef97c68":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
         <master_snapshot>9a3202fa93c38310f7f270d19dba1054</master_snapshot>
         <master_snapshot_digest/>
         <name>Enterprise Offboarding Process</name>
         <natlang/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
-        <remote_trigger_id>2e8b6f0393830310f7f270d19dba1025</remote_trigger_id>
+        <remote_trigger_id>0cb28a7793074710f7f270d19dba1047</remote_trigger_id>
         <run_as>system</run_as>
         <run_with_roles/>
         <sc_callable>false</sc_callable>
@@ -36,7 +36,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>4c2a3d7a93838310f7f270d19dba1012</sys_id>
-        <sys_mod_count>27</sys_mod_count>
+        <sys_mod_count>51</sys_mod_count>
         <sys_name>Enterprise Offboarding Process</sys_name>
         <sys_overrides/>
         <sys_package display_value="Enterprise Offboarding Automation" source="x_1913323_enterp_0">94cda6a2934b0310f7f270d19dba1034</sys_package>
@@ -44,11 +44,11 @@
         <sys_scope display_value="Enterprise Offboarding Automation">94cda6a2934b0310f7f270d19dba1034</sys_scope>
         <sys_update_name>sys_hub_flow_4c2a3d7a93838310f7f270d19dba1012</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-05 17:11:30</sys_updated_on>
+        <sys_updated_on>2026-09-07 17:28:51</sys_updated_on>
         <type>flow</type>
         <updation_source/>
         <version>2</version>
-        <version_record>f68b6f0393830310f7f270d19dba10a4</version_record>
+        <version_record>54b28a7793074710f7f270d19dba10eb</version_record>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=4c2a3d7a93838310f7f270d19dba1012"/>
     <sys_variable_value action="delete_multiple" query="document_key=4c2a3d7a93838310f7f270d19dba1012"/>
@@ -68,15 +68,15 @@
         <run_when_user_setting>any</run_when_user_setting>
         <sys_class_name>sys_flow_record_trigger</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-09-05 17:11:30</sys_created_on>
+        <sys_created_on>2026-09-07 17:28:51</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>2e8b6f0393830310f7f270d19dba1025</sys_id>
+        <sys_id>0cb28a7793074710f7f270d19dba1047</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_overrides/>
         <sys_scope display_value="Enterprise Offboarding Automation">94cda6a2934b0310f7f270d19dba1034</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-05 17:11:30</sys_updated_on>
+        <sys_updated_on>2026-09-07 17:28:51</sys_updated_on>
         <table>x_1913323_enterp_0_offboarding_request</table>
         <trigger_definition/>
     </sys_flow_record_trigger>
@@ -87,14 +87,14 @@
         <identifier_type>flow</identifier_type>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-09-05 17:11:30</sys_created_on>
-        <sys_id>668b6f0393830310f7f270d19dba1027</sys_id>
+        <sys_created_on>2026-09-07 17:28:51</sys_created_on>
+        <sys_id>40b28a7793074710f7f270d19dba1049</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-05 17:11:30</sys_updated_on>
-        <trigger display_value="">2e8b6f0393830310f7f270d19dba1025</trigger>
+        <sys_updated_on>2026-09-07 17:28:51</sys_updated_on>
+        <trigger display_value="">0cb28a7793074710f7f270d19dba1047</trigger>
     </sys_trigger_runner_mapping>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=4c2a3d7a93838310f7f270d19dba1012^sys_idNOT IN668b6f0393830310f7f270d19dba1027"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=4c2a3d7a93838310f7f270d19dba1012^sys_idNOT IN40b28a7793074710f7f270d19dba1049"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=4c2a3d7a93838310f7f270d19dba1012"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=4c2a3d7a93838310f7f270d19dba1012^sys_idNOT IN042a3d7a93838310f7f270d19dba1017"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -302,7 +302,31 @@
         <trigger_type>record_create</trigger_type>
         <updation_source/>
     </sys_hub_trigger_instance_v2>
-    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=4c2a3d7a93838310f7f270d19dba1012^sys_idNOT IN317b7d3e93838310f7f270d19dba1099,89dcb9fe93838310f7f270d19dba1027,8e7af5ba93838310f7f270d19dba1060,a3c427c393430310f7f270d19dba1096"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=4c2a3d7a93838310f7f270d19dba1012^sys_idNOT IN2cb7b5ff93834710f7f270d19dba109a,317b7d3e93838310f7f270d19dba1099,89dcb9fe93838310f7f270d19dba1027,8e7af5ba93838310f7f270d19dba1060,a3c427c393430310f7f270d19dba1096,be033d7793834710f7f270d19dba100c,c936353f93834710f7f270d19dba10b5"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Enterprise Offboarding Process">4c2a3d7a93838310f7f270d19dba1012</flow>
+        <generation_source/>
+        <order>11</order>
+        <parent_ui_id>1b892d78-30a8-4a8d-a600-ced55ef97c68</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-07 16:40:49</sys_created_on>
+        <sys_id>2cb7b5ff93834710f7f270d19dba109a</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Enterprise Offboarding Automation">94cda6a2934b0310f7f270d19dba1034</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-09-07 17:32:49</sys_updated_on>
+        <ui_id>f3eaa389-b1c8-4a7f-acaf-fe81d24606ed</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VVXU/bMBT9K5afoyihrIK+TSD2MmACxAsb0U1801pz7Mx2Cl3V/77r2C0VH9om7QUtT73f59yc3N6tuRR8xqclFh+Oy2kzKSeTg6I4ODos6+mkLg/EBBAPecY1dEiZHmqF1WhkfAlqiE73nUwhXa9gdZu8N9HbLKQSFjWf3X3LeA+Waj1aPls/C/0pEgU1qrE/QXkDmV/1r/o+79eyixgwVgQ8Rcbx0aMWSEBaUA4z3oEW4I1d8Zm3AzksgrjUarXLWEjtqSEPuY9O/qSxR0XIa5GYNRhjO7NKS4ru9hQ8XFPnxg82pTYLIxt0cScCWxiUP9n3xYTL3kujY8lIM1UbNXT6Iq6E7xps3wl5BkcgsA88A/JEo71emIerLcozqceVpKAyDaidBd5bWQ8+4FlzVNhRo6qDvpd6XvXWLOVYTFi6fK7IyFtlHmiok3OdQxOA57RWyM/Ifzq6b8HKwOKc2lDxJuNu5U4UOPfEhZZY/RgCksgscajiGkJJY2XvP9KAJSa4m2wrcYHF8ZvCKusnIY2qdnvyJs3SmK9DUUzEen1CEvAoqjJvBhsCm829WxjrA8ERANGLyVdI+IkcOwcNc7SsNTb9FuyTNUPv7l8U3SyQmbatDZAsBcOuV2aFyKRjSjqazMAxYN1eS6OpxLLOWGTzsW3OvigajsziUuIDIxmzhAXIRwpsxte2bZO//Hz/E9Z/eZ5+r6LteTqTqIR7RVbb2xQ40k6rKLNn9ykF2W0KphtV/qsbVU6L8XlHlyqSe/eHau8/6Y2T9e0XkyBsTZcHAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=2cb7b5ff93834710f7f270d19dba109a"/>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent/>
@@ -318,10 +342,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-09-04 14:23:23</sys_created_on>
         <sys_id>317b7d3e93838310f7f270d19dba1099</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Enterprise Offboarding Automation">94cda6a2934b0310f7f270d19dba1034</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2026-09-05 17:13:19</sys_updated_on>
+        <sys_updated_on>2026-09-07 17:32:49</sys_updated_on>
         <ui_id>213b4c28-6e66-43b1-afa8-5a3126e47c66</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1TXU/bMBT9K5WfqyppAEHfJiqkSQwkQLwwZt3YN2DNiYPtFLqq/33XiZOWjyHQeBjS8nY/fc7JPVcrpiSbsR2USXqQ7okszbJpkkz3d9J8L8vTqcwAMWVjVkGJ1GlRGCspXoBuQmK1OrQIHiVPJ6KxFiu/XlNdKldrWF7GNsqIW6Ul1dns6nrMarC00aNls9WT0lshachRU+tZj+kpRr+sQyyNaErCxVWfPI6T81gZfZ1ThYYCnDQZM3zwWEkkIAVoh2NWQiXBG7tkM28bShBpeVrp5dBxqyrfES3hwalf9PJOEvoKJGYiijCEPArUpYs5eDinzcI3dtDLKIGu00RiAY32h9u5ruG09spU3YiHXPfTRjdlddIpwoYFW/+jcQQC68AzIO9oFee35v6sB3mkqlaSSFEbAXqIwHur8sYHOCuGGluNS6hrVd3w2pqFaocJSjm50RRMCm3u6U2nbqoJiIB7QqrC5Ijy8zZ9CVYFEt9oDQ2vx8wt3aEG5zZUSEN+1wQkHbFIgbcqtBLw9hLCsLCq9l/oqQVG4OtxPPpk+uqF4eag2lt3W0dPmDyWHAT9C8ctLsxPlN+bJMlkkPFHyAgI/Ljz4BvX1VzTDjx3x1/ve5+33sC899aRQi3dC1JEbxFsIuKRd9I8ttdFLI4uY3Fw2IdZLN1L2u+/0f5do+W7r52bONhc19bOjdkeOA3TYMbpbbQ1T7gpityAlYG/xTu6SP/cVKebptHZ0PQ+p7wBeu+Ui/YkXqbSm+Vp7nh7dnTSFaJJdj/MI/ufyR2Rxqe3x59Mcf0b8Tj8Q3QJAAA=</values>
@@ -336,16 +360,16 @@
         <display_text/>
         <flow display_value="Enterprise Offboarding Process">4c2a3d7a93838310f7f270d19dba1012</flow>
         <generation_source/>
-        <order>4</order>
+        <order>6</order>
         <parent_ui_id>ec8b5d8a-4c48-4ac3-b8cf-ffc1e8d3abfd</parent_ui_id>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-09-04 14:29:19</sys_created_on>
         <sys_id>89dcb9fe93838310f7f270d19dba1027</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_scope display_value="Enterprise Offboarding Automation">94cda6a2934b0310f7f270d19dba1034</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2026-09-05 17:13:19</sys_updated_on>
+        <sys_updated_on>2026-09-07 17:32:49</sys_updated_on>
         <ui_id>636e3c8c-da4a-4989-b6b2-472dddbda815</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1TTU/jMBD9K5XPbZWPki29ragqrcSCVFAvLIom9gQsOR/YDrRb9b/vJHHSUlgEEodF2tw8M89+b/LezZZJwWZsgsLzT/2Ih34YBp4XTCd+EoWJH4gQEH02ZDlkSJMaeaEFnR9BVXVhuw38MJnwYDqKMIpGE0KNIIXp6ARCP4hw8o1H0bjF7XaEFNKUCjYrdwFV+L1UQmPOZje3Q1aCprcsajbbHrXeS1ZBgopGlx3bY/Z2U9ZnUfAqw9zGsiueO+TcdQY/5tQhUE3H94YM1xZzgUQkBWVwyDLIBdhCb9jM6ooKGkFc5mrTT9zL3LZCM1gb+Ztennj1XIqkjLsl9MfYLagtp3OwcEU3c1vpfl+F5GjanQhMoVL27LDWDlyWVhZ5C7GQqA5dqCrLL9qNsP6Cg/9RGSKBZa2zZt7KSq/ui6dlR3Ih82YlTqIqOKj+BNZqmVS2prNlqLDZcQZlKfO7uNTFo2zARCUb3yk6jFNVPNGbRt7lY+A17zFtFcYLqs+b8gq0rEX8pGsIvBsyszFnCozZS6Edxg9VzaQV5iTEzRaaFcSNE2ow17K03+mpR3TEd0MXBy9402G4N1STAnMQB2PB4q/K80IRvvT6Ufdjvn8Hq873C4lKmFdoOt9bzIiWxbil/dz61645WLlm7/5Ps78fec33PwT/bgiSk7fsxk/37jq4cx+EdUxgAoYxvY26jL24SNOkAC1q/RofyJH2ZUQu90ODZT/0saS8g3qXlOvGEq9L6cJyXDs/xA4u2oYLycmnZWT6ldLhZHz5ePwtFLd/ANweHWoqCQAA</values>
@@ -366,10 +390,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-09-04 14:19:01</sys_created_on>
         <sys_id>8e7af5ba93838310f7f270d19dba1060</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Enterprise Offboarding Automation">94cda6a2934b0310f7f270d19dba1034</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2026-09-05 17:13:19</sys_updated_on>
+        <sys_updated_on>2026-09-07 17:32:49</sys_updated_on>
         <ui_id>17ad82af-9b04-4832-a309-bc30555a4894</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/51SXW+bQBD8K9U9YwQ1Doa3yFakSG0jNU1eoggtd4t90nGQ+3BCkf979wx2q6QPVcXTzs7uzszxNDIpWMnyZV0sVzkUyzV9adLkzec8EWkhakgTFCxiGlokprdoKhmAAygfkHHcGASHokpj7o1B7WIHZoeuwrZX3YAYn6bChuORJoW0vYLh8b8X8L1UgnisfHqOWA+GGg4NK8d3rX81p6BGRdQHOvPpdvs3u27oA2CdkXo311/msfsz2BkRZKQRwzeHWtDysgFlMWItaAGuMwMrnfEEkGdxp9VwYeyldrSMBe6blT/p3DpJksBskCxxnLqXspqDnOBmCw5IiefOm5nK953kaKcwBDbgldv8iU2Eu97JTk8jDmp1nu6Ub/W3KQl2WXB+N0IonkpgH5wG7bOR5n7fvX4/q7yR+hTK3FQdB3WpwFF0tXdBz8i8/PEu5Qn5kDMqbOli1ULfE1L1pjvI0xUS3cY7RUXcqO6V1Fm50zHw4DCmF4D4hvDtCX4EI4Pdr7SGhsO5By1fPN6G/yZr1qs0y5LF1SotFhnwdFHkqVjwLFk3RZ2ly6uCHSNmB7tRYO3voOiFqhcfbE6xzQFVU8ZhhBvZu2sSdcA5i+PzL34iRC2NAwAA</values>
@@ -384,26 +408,128 @@
         <display_text/>
         <flow display_value="Enterprise Offboarding Process">4c2a3d7a93838310f7f270d19dba1012</flow>
         <generation_source/>
-        <order>6</order>
+        <order>8</order>
         <parent_ui_id>34d2f0e2-e8c8-4c61-ae47-fd9145a853ef</parent_ui_id>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-09-05 16:42:06</sys_created_on>
         <sys_id>a3c427c393430310f7f270d19dba1096</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope display_value="Enterprise Offboarding Automation">94cda6a2934b0310f7f270d19dba1034</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2026-09-05 17:13:19</sys_updated_on>
+        <sys_updated_on>2026-09-07 17:32:49</sys_updated_on>
         <ui_id>58255e7f-e748-4292-844b-8adb7458c9aa</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/9VUy27bMBD8FYFnQZCs1Eh8Kxz41CZAUviSpgIlrmyiFMmSlBPV8L93KdKOkcRoA6SH+LazD86Mdn23JZyRGZkWkH+6KKZNWZTlJM8n52dFPS3rYsJKCnBGUiJpB1jpaC2gGoOUbKjoA2h/Ysi41YIOy4h+C2iz5oIZkGR2d58STQ32OjBktn2W+lcmgtYgxvlI5QQzN+hXsS/HvclVSCjDPJ88JfDoQDJAIi0VFlLSUcmoU2YgM2d6BAxQdi3FcKhYc+lwIPG1j5b/xmfPc1/XAiprIOQOYRVNCnB7SR29xcmN600sbdaKN2CDJwxa2gs3P8ZCwbV2XMnQMsqM3Ur0nbwKlpDDgP03QaS3SAK01+mZRxnt7Vo93OxZLrgcLYlJoRoqDhF1zvC6d57PloCADgdVHdWay1WljdrwsRm5dNlKYJC1Qj3go5avZEYbTzxDW2m2QPxyhJfUcK/iK47B5l1K7GDnglr7pAVNrH71nklQFjVUwQbf0hiu3Wd8YAOR7i7drziD/OLkYhX10yKNW22P1tuulXGe/jgeyX/v87xkN4A+wAYS1KmpHBIkC84mrVFdAp0WagD4gQuPHEPHdjvH/XHAqiJreuMTu93Lw/nv773xJP/u3P4kFxwEs69Yub9HTxMJVcHaZzcZk8kyJuNdFu91l8U0H38f6DqDuA9/nEf/wyfO9P4P+TJlZ4sGAAA=</values>
     </sys_hub_action_instance_v2>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=a3c427c393430310f7f270d19dba1096"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Enterprise Offboarding Process">4c2a3d7a93838310f7f270d19dba1012</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id>44810f47-bf1b-4e07-9188-c9e3e7e36ca5</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-07 16:20:30</sys_created_on>
+        <sys_id>be033d7793834710f7f270d19dba100c</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_scope display_value="Enterprise Offboarding Automation">94cda6a2934b0310f7f270d19dba1034</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-09-07 17:32:49</sys_updated_on>
+        <ui_id>9e7a9f0e-281d-4408-a323-8cd410e8d6f7</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VVXW/aMBT9K8jPUZQQilreJhjSpK6V2qovXRc58Q1Ycz5mO7QZ4r/v2nFCBFVHpb6g8eb75XNOzsVPW8IZmZEJsCC8CqdpFEbROAjGl5MwmUZJOGYRBQiJRwqaA1ZKSEvJ8LyhojaB7XYugWpgceintZRQaF9TuQIdQ16JsgHY7bCecVUJ2jy6Noykay4Y1pPZ07NHKirxBg2SzLYHqVMhCpqAwNK7DuMhZt1U5szKtM4RZ8y74LXrXLjM6NsCM9hk4ISBR+BVQ8EAgWRUKPBITgtGdSkbMtOyxgCKwG4L0fQVa17olmhOXxX/gzdPAlOXATJLnQj9MXYCteFsQTW9x8mprmWvV8lTUK0mDDJaCz0fxtqC20rzsmhbNE1E112KOi9uWkVIP2DwPWqFIKAyPA3yllZ2vy5f7jqQS15YSRxFUaZU9CeqteRJrQ2cLQEBVuOcVhUvVnElyw23zQgl91cCD34myhe8U/FV4dPU4PZRVeovMb6w4UcquSHxHcdg884jqlFzQZXaU0EN49+1QdIScxRiq4KVILZOMM2p5JX+gldtwAHfeW4Jkov3HJZe7Q01mLlfBMQVo4Ty2OsPdh1GX906fNj6JwDrrP9gP/jbQJ37j2LXw97RTZtw3r/4NO9fnpP3HY2zN/+/LB+M3/1THTjJulwN7E7twB91EETMDv2JgvzCZ6CsdRs13jhehpP7PrYjJzDpdmTJQTD1BrVuQcy7hS9a3FI9WBKXHD26ZP9IfNqmhNPA/s5oX/6bt+L5LzSxzHIyCQAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=be033d7793834710f7f270d19dba100c"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Enterprise Offboarding Process">4c2a3d7a93838310f7f270d19dba1012</flow>
+        <generation_source/>
+        <order>9</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-07 16:34:18</sys_created_on>
+        <sys_id>c936353f93834710f7f270d19dba10b5</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Enterprise Offboarding Automation">94cda6a2934b0310f7f270d19dba1034</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-09-07 17:32:49</sys_updated_on>
+        <ui_id>4fe9d29e-aa77-4bb2-b7a3-6f9d4c654be9</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VX30/bMBD+V6o8R1VCS2G8TUVMk/ghAeJlQ5ZjO601185sp1Cq/u87x04atYG1U5FAe/Td2f7u7vucy49lxGl0Fp3mwyTB6fHpSZIMBkkyGg0ITrNsMCJZkg2zKI4knjGItDgTDJZzLEq3NguDSsM0mmhVFuCg3BQCLx6C/1swkykXVDMZnf14jKMCazjOMh2dLTdcu+IROGMCQu8DoA18dlE0S1T5vO2yva137R1KUwcliSP2bJmkDDDkWBgWRzMsKbZKLxqLZpjeSLE2TLm0cGLkgp8Nf4F7TxMXlzPIijDva5YoVMib83Ns8Z3VJbGlDqFkqjhhxteDshyXwo7bNh9wU1iupN/i0/a7lShn8tqXI2oOqBsCFugXoqxwiTrkIY38bqqebmuUF1xWNQlOoQgWzQpbq3lWWodnGTHBZnAQmuGi4HKCCq3mvNoMWGb9iYBFPxfqCS41fCL7mDjgfagr7l+A/bwyP2DNXRZXcAxsBkBcAEOQb6FRpa5KOUdElKZyaCyNPytaxY6JY4GNWWcOJUe/S4fb1yFkjHzR3BaieWG/whFzFpJbxTtJ4jhZU44oSblDYVq6AN7gCdM/S9hNl8sxsMYyitI+KTUU2PYt1hNmEZsVQi0YW622tfNPZxxSaFWWtdDG7TS7Ug+S27Jddh0QJJceTHKQx2cSHVz+8TS3v4p8Cf4iJXLyJsmO13wySlvka9nS0rYy9ub5DhBqnt84ZvayxWuoAs1zzgTt+rJcOMfGl+Xo//yyfEiSAyCKfPe4FFxWYwIAfS/2J28/sV82eFbRqzVfORs2ZFsDuGdV72VvJewAp1bCHdzdu/d4OiDW731Fmc23vjYGAQwOJoDB0WEEsGzSbArZUfN6MnTdrONfXDzejAcKtjakqy6B7XVnuu+dR6ttAQ/2UnCbbN5z/grnDjxCvqLI+D2fgClsDfchr1/0xCnMU+vb6yiq7BMWv7r8gXGoblSV3juMo8M3ZTtK1xIFpSDNDDSvPY+mMB5tvyFp7M37PSE7YKnLcYWfe7cNmE6E4RkBpbNJ1Zv2O/K9sQaSDw84MH7YL2ndrE4N1j37FH9xhxPC4x80ZSeerBAAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=c936353f93834710f7f270d19dba10b5"/>
     <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=4c2a3d7a93838310f7f270d19dba1012"/>
-    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=4c2a3d7a93838310f7f270d19dba1012^sys_idNOT IN161cf97e93838310f7f270d19dba10ae,bed16f0f93030310f7f270d19dba1070"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=4c2a3d7a93838310f7f270d19dba1012^sys_idNOT IN161cf97e93838310f7f270d19dba10ae,b13775bf93834710f7f270d19dba10fa,b564bdf793834710f7f270d19dba1045,bed16f0f93030310f7f270d19dba1070"/>
     <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
         <attributes/>
         <block display_value="">5e1cf97e93838310f7f270d19dba10ac</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Enterprise Offboarding Process">4c2a3d7a93838310f7f270d19dba1012</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>5</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-04 14:26:08</sys_created_on>
+        <sys_id>161cf97e93838310f7f270d19dba10ae</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Enterprise Offboarding Automation">94cda6a2934b0310f7f270d19dba1034</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-07 17:28:48</sys_updated_on>
+        <ui_id>ec8b5d8a-4c48-4ac3-b8cf-ffc1e8d3abfd</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1U22obMRD9FaNns+x6Y9P4zbgECm1TmpCXNiyz0qwtopW2uthxjf+9o704pnbohT72TTqayzkzB+2ZCb4J3t2bhXNypdn8y+OYSR0xOu+ZhhrZnHGjhfTSaDZmG1AhYvv90iJ4FEWW8GAtap+Ac+gLboL2h8PXkKa5SClFSNco2D38eSZfSyUooCPWgCU+Hi2b73968rsGCwUlKmpw563UK0qXgm7XMK2mWTrl+WSWT9J08uYqK2d5mU1EDng1o7ghcXmi84L02IQgN5Q3VkQuk3TM8NmjFkj9KlAOx6wGLcAbu2NzbwMBJFncarU7Rqyl9lSNxdhnJ79jrJSmMbJCEsaxez1ei36OHczXRnK8bVpuLeKhVH0ONyrU+mMnIW4AKwjKDxsgJDiqh00kHWn0nKq7tdl+HhreSN0K7B+V4aCON/A0hjJ4dHEbqLCmQkUNTUPDKRprNrJNJi51slJ0SSplttQ0Oi0BHoknNCNIbgh/28IPYGVU8YHKUDJt0BWOW9kM2trm7NBOpfgWIp9OX6+k6IZBAV3agtpssCd9GJ87umiBF1sv18ifRp+oGskYLaIt3bmFX4n6F3atUqiya55dtivkl+w6et8i56Yd1L3i3OwXzu2R37LudPrfuafOjTRLcJIX7X9K5eI/8NfWfYwW7Vq4zkMCuXTE5D5i74Y/Oz7saOuSn0JbY5+ihhfs8AP+7xIE/QUAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">d7a20a7793074710f7f270d19dba10cc</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Enterprise Offboarding Process">4c2a3d7a93838310f7f270d19dba1012</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>10</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-07 16:38:44</sys_created_on>
+        <sys_id>b13775bf93834710f7f270d19dba10fa</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Enterprise Offboarding Automation">94cda6a2934b0310f7f270d19dba1034</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-07 17:28:48</sys_updated_on>
+        <ui_id>1b892d78-30a8-4a8d-a600-ced55ef97c68</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1VwW7bMAz9FUPnJHBsJ5lzK7p1KLCuwFr00hUGLdOJMFnyJDlpFuTfR9lOGqwpFhQ77mY9UuR71CO8ZbpxdePsvb6wViwUmz8+DZhQHqPvLRMFm7MyhHKc8jGPo2kchWH0IRnn0zgfR0UMCDEbMAUVUibXqhBOaJW1wICtQDY+cF0Gn6pa6g1iIGwAwWejmzq4AQULNJRYCFtL2Dycm8+XQhYGe8Y1GOrnKDLf/hFymxozCTlKKnvnjFALun6urv3Fy72w4EuLvK3Y9yPc7jtpU3ha43DA8NmhKpBalyAtDlgFqgCnzeaAGITiVskXYCmUo3LMJz9b8YtqR5OJTyyRNHLsgodj1g+yg/lSC463tSfYIQ5y2d/hWjaV+trp8E+AJTTS7Z+AkMZSPaw9ac+ip1TeLfX6277hlVCtwD4oNQd5OIGjMeSNQ+sfBiVWVCiroK5pOFlt9Eq0l4lLNVpIOoxKqdfU1LtxBNwTH9GMYHRF+McWfgAjvIobKtN6wdPMwQqetc6lcs6QhF07luxn4wl1AnspWTcNSrDciNpdUJ8V9qx3g972KUzKyTicnLZHMj1hgiPHb7dJiWkRpTgEmM2GSZ5Hw3wG8XBapkXCp5Mkx3R0qRvldrvvTRjGGL5ehPeW+Rf7ccYAXu3H6aG8sRTRX5bCP+OZOxGG4f+lOF4KYbPO3L22tvm7d+LJG7vrYDvfFMiFJSL3Hrve/zF8YEMGEPwYWmvzw0t4wXa/Ab6zDn97BgAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">5ba20a7793074710f7f270d19dba10c0</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -417,15 +543,15 @@
         <parent_ui_id/>
         <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-09-04 14:26:08</sys_created_on>
-        <sys_id>161cf97e93838310f7f270d19dba10ae</sys_id>
+        <sys_created_on>2026-09-07 16:26:26</sys_created_on>
+        <sys_id>b564bdf793834710f7f270d19dba1045</sys_id>
         <sys_mod_count>7</sys_mod_count>
         <sys_scope display_value="Enterprise Offboarding Automation">94cda6a2934b0310f7f270d19dba1034</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-05 17:11:28</sys_updated_on>
-        <ui_id>ec8b5d8a-4c48-4ac3-b8cf-ffc1e8d3abfd</ui_id>
+        <sys_updated_on>2026-09-07 17:28:48</sys_updated_on>
+        <ui_id>44810f47-bf1b-4e07-9188-c9e3e7e36ca5</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/+1U22obMRD9FaNns+x6Y9P4zbgECm1TmpCXNiyz0qwtopW2uthxjf+9o704pnbohT72TTqayzkzB+2ZCb4J3t2bhXNypdn8y+OYSR0xOu+ZhhrZnHGjhfTSaDZmG1AhYvv90iJ4FEWW8GAtap+Ac+gLboL2h8PXkKa5SClFSNco2D38eSZfSyUooCPWgCU+Hi2b73968rsGCwUlKmpw563UK0qXgm7XMK2mWTrl+WSWT9J08uYqK2d5mU1EDng1o7ghcXmi84L02IQgN5Q3VkQuk3TM8NmjFkj9KlAOx6wGLcAbu2NzbwMBJFncarU7Rqyl9lSNxdhnJ79jrJSmMbJCEsaxez1ei36OHczXRnK8bVpuLeKhVH0ONyrU+mMnIW4AKwjKDxsgJDiqh00kHWn0nKq7tdl+HhreSN0K7B+V4aCON/A0hjJ4dHEbqLCmQkUNTUPDKRprNrJNJi51slJ0SSplttQ0Oi0BHoknNCNIbgh/28IPYGVU8YHKUDJt0BWOW9kM2trm7NBOpfgWIp9OX6+k6IZBAV3agtpssCd9GJ87umiBF1sv18ifRp+oGskYLaIt3bmFX4n6F3atUqiya55dtivkl+w6et8i56Yd1L3i3OwXzu2R37LudPrfuafOjTRLcJIX7X9K5eI/8NfWfYwW7Vq4zkMCuXTE5D5i74Y/Oz7saOuSn0JbY5+ihhfs8AP+7xIE/QUAAA==</values>
+        <values>H4sIAAAAAAAA/+1VTW/aQBD9K3TPYPkD3IQbahUpUhukBuXSRNZ4PYZV17vu7hpCEf+9s7YhqCUKqtpbb+ybr/fGb8SO6cbVjbMLPbNWLBWbfn0aMqE8Rr93TBRsysoQyuiaRzyJ0yQOw/hqHOVpkkdxkQBCwoZMQYWUybUqhBNaZS0wZGuQjQ/cloMFmCW6gbCDu/liMCsqoSihELaWsH14K4+vhCwM9gxrMNTfoWHT3S8ht60xk5CjpHb3zgi1pPJLdRwKPxyEDD61yOsK/TzC7WGSNoWnFYVDhs8OVYE0ugRpccgqUAU4bbZHxCAUcyVfgJVQjtoxn/xsxQ/qHU8mPrFE0sixCx6fWb/ADuYrLTjOa0+wQxzksq/hWjaVuut0+NVjCY10h9UT0ljqh7Un7Vn0lMr7ld58OQy8EaoV2Ael5iCPL3C0hrxxaP2HQYkVNcoqqGtaTlYbvRZtMXGpgqWkR1BKvaGh3n0BcE88oB1BcEP4xxZ+ACO8is/Uhoo7mjlYwbPWqdTOGZKwb9eSfW88oU5gLyXrtkEJlhtRuxnNWWPPej/sbX4Nk3IShZPz9hinZ0xw4vDdLo6SfMzjq1GKaToaU+EISrgaTSCJ4hTH73maBgY5OSRwrckzrGqpt4gBSTKto/b7d49NGCYFnD+QfzXmb9zXBQv87b7OL/WVo4rfOCpvgwtvKgzD/0d1elTCZt1x9Nra4X98U0/+MLoJtvNNgVxYIrLw2O3hH8YHtmQAwU+hjTbfvIQXbP8TwkoZzKsGAAA=</values>
         <workflow_reference/>
     </sys_hub_flow_logic_instance_v2>
     <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
@@ -439,17 +565,17 @@
         <flow_variables_assigned/>
         <generation_source/>
         <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
-        <order>5</order>
+        <order>7</order>
         <outputs_assigned/>
         <parent_ui_id/>
         <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-09-05 16:29:12</sys_created_on>
         <sys_id>bed16f0f93030310f7f270d19dba1070</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="Enterprise Offboarding Automation">94cda6a2934b0310f7f270d19dba1034</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-05 17:11:28</sys_updated_on>
+        <sys_updated_on>2026-09-07 17:28:48</sys_updated_on>
         <ui_id>34d2f0e2-e8c8-4c61-ae47-fd9145a853ef</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
@@ -519,7 +645,7 @@
         <description/>
         <flow_priority>MEDIUM</flow_priority>
         <internal_name>enterprise_offboarding_process</internal_name>
-        <label_cache>[{"name":"Created_1.current.target_employee","label":"Trigger - Record Created➛Offboarding Request Record➛Target Employee","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_1913323_enterp_0_offboarding_request","column_name":"target_employee","choices":[{"order":0.0}],"usedInstances":{}},{"name":"Created_1.current","label":"Trigger - Record Created➛Offboarding Request Record","reference":"x_1913323_enterp_0_offboarding_request","reference_display":"Offboarding Request","type":"reference","base_type":"reference","usedInstances":{"213b4c28-6e66-43b1-afa8-5a3126e47c66":["record"],"58255e7f-e748-4292-844b-8adb7458c9aa":["parent"]},"attributes":{}},{"name":"Created_1.current.asset_count","label":"Trigger - Record Created➛Offboarding Request Record➛Asset Count","reference":"","reference_display":"Asset Count","type":"integer","base_type":"integer","parent_table_name":"x_1913323_enterp_0_offboarding_request","column_name":"asset_count","choices":[{"order":0.0}],"usedInstances":{"ec8b5d8a-4c48-4ac3-b8cf-ffc1e8d3abfd":["condition"]}},{"name":"213b4c28-6e66-43b1-afa8-5a3126e47c66.record","label":"2 - Update Record➛Offboarding Request Record","reference":"x_1913323_enterp_0_offboarding_request","reference_display":"Offboarding Request","type":"reference","base_type":"reference","usedInstances":{},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.target_employee.user_name","label":"Trigger - Record Created➛Offboarding Request Record➛Target Employee➛User ID","reference":"","reference_display":"User ID","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"user_name","choices":[{"order":0.0}],"usedInstances":{"17ad82af-9b04-4832-a309-bc30555a4894":["user_id"]}}]</label_cache>
+        <label_cache>[{"name":"Created_1.current.target_employee.user_name","label":"Trigger - Record Created➛Offboarding Request Record➛Target Employee➛User ID","reference":"","reference_display":"User ID","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"user_name","choices":[{"order":0.0}],"usedInstances":{"17ad82af-9b04-4832-a309-bc30555a4894":["user_id"]}},{"name":"213b4c28-6e66-43b1-afa8-5a3126e47c66.record","label":"2 - Update Record➛Offboarding Request Record","reference":"x_1913323_enterp_0_offboarding_request","reference_display":"Offboarding Request","type":"reference","base_type":"reference","usedInstances":{},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.asset_count","label":"Trigger - Record Created➛Offboarding Request Record➛Asset Count","reference":"","reference_display":"Asset Count","type":"integer","base_type":"integer","parent_table_name":"x_1913323_enterp_0_offboarding_request","column_name":"asset_count","choices":[{"order":0.0}],"usedInstances":{"ec8b5d8a-4c48-4ac3-b8cf-ffc1e8d3abfd":["condition"]}},{"name":"Created_1.current","label":"Trigger - Record Created➛Offboarding Request Record","reference":"x_1913323_enterp_0_offboarding_request","reference_display":"Offboarding Request","type":"reference","base_type":"reference","usedInstances":{"213b4c28-6e66-43b1-afa8-5a3126e47c66":["record"],"58255e7f-e748-4292-844b-8adb7458c9aa":["parent"],"f3eaa389-b1c8-4a7f-acaf-fe81d24606ed":["parent"]},"attributes":{}},{"name":"Created_1.current.target_employee","label":"Trigger - Record Created➛Offboarding Request Record➛Target Employee","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_1913323_enterp_0_offboarding_request","column_name":"target_employee","usedInstances":{"9e7a9f0e-281d-4408-a323-8cd410e8d6f7":["record"],"4fe9d29e-aa77-4bb2-b7a3-6f9d4c654be9":["conditions"]}},{"name":"213b4c28-6e66-43b1-afa8-5a3126e47c66.record.target_employee.user_name","label":"2 - Update Record➛Offboarding Request Record➛Target Employee➛User ID","reference":"","reference_display":"User ID","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"user_name","usedInstances":{"44810f47-bf1b-4e07-9188-c9e3e7e36ca5":["condition"]}},{"name":"213b4c28-6e66-43b1-afa8-5a3126e47c66.record.target_employee","label":"2 - Update Record➛Offboarding Request Record➛Target Employee","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_1913323_enterp_0_offboarding_request","column_name":"target_employee","usedInstances":{}},{"name":"4fe9d29e-aa77-4bb2-b7a3-6f9d4c654be9.Count","label":"9 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","usedInstances":{"1b892d78-30a8-4a8d-a600-ced55ef97c68":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
         <master>true</master>
         <name>Enterprise Offboarding Process</name>
         <natlang/>
@@ -536,7 +662,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9a3202fa93c38310f7f270d19dba1054</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -544,7 +670,7 @@
         <sys_scope display_value="Enterprise Offboarding Automation">94cda6a2934b0310f7f270d19dba1034</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-05 17:11:30</sys_updated_on>
+        <sys_updated_on>2026-09-07 17:28:50</sys_updated_on>
         <type>flow</type>
         <version>2</version>
     </sys_hub_flow_snapshot>
@@ -628,14 +754,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-09-04 14:52:54</sys_created_on>
         <sys_id>1a3202fa93c38310f7f270d19dba1058</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Enterprise Offboarding Automation">94cda6a2934b0310f7f270d19dba1034</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-05 17:11:29</sys_updated_on>
+        <sys_updated_on>2026-09-07 17:28:50</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -712,14 +838,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-09-04 14:52:54</sys_created_on>
         <sys_id>de3202fa93c38310f7f270d19dba1083</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Enterprise Offboarding Automation">94cda6a2934b0310f7f270d19dba1034</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-05 17:11:29</sys_updated_on>
+        <sys_updated_on>2026-09-07 17:28:50</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -757,7 +883,7 @@
         <trigger_type>record_create</trigger_type>
         <updation_source/>
     </sys_hub_trigger_instance_v2>
-    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=9a3202fa93c38310f7f270d19dba1054^sys_idNOT IN0a8b2f0393830310f7f270d19dba1062,263202fa93c38310f7f270d19dba10e6,623202fa93c38310f7f270d19dba10be,ae3202fa93c38310f7f270d19dba10bf"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=9a3202fa93c38310f7f270d19dba1054^sys_idNOT IN0a8b2f0393830310f7f270d19dba1062,263202fa93c38310f7f270d19dba10e6,623202fa93c38310f7f270d19dba10be,77a24a7793074710f7f270d19dba10a8,ae3202fa93c38310f7f270d19dba10bf,b7a24a7793074710f7f270d19dba10ac,fba24a7793074710f7f270d19dba10aa"/>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
         <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
@@ -767,16 +893,16 @@
         <display_text/>
         <flow display_value="Enterprise Offboarding Process">9a3202fa93c38310f7f270d19dba1054</flow>
         <generation_source/>
-        <order>6</order>
+        <order>8</order>
         <parent_ui_id>34d2f0e2-e8c8-4c61-ae47-fd9145a853ef</parent_ui_id>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-09-05 17:11:29</sys_created_on>
         <sys_id>0a8b2f0393830310f7f270d19dba1062</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Enterprise Offboarding Automation">94cda6a2934b0310f7f270d19dba1034</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-05 17:11:29</sys_updated_on>
+        <sys_updated_on>2026-09-07 17:28:50</sys_updated_on>
         <ui_id>58255e7f-e748-4292-844b-8adb7458c9aa</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/9VUy27bMBD8FYFnQZCs1Eh8Kxz41CZAUviSpgIlrmyiFMmSlBPV8L93KdKOkcRoA6SH+LazD86Mdn23JZyRGZkWkH+6KKZNWZTlJM8n52dFPS3rYsJKCnBGUiJpB1jpaC2gGoOUbKjoA2h/Ysi41YIOy4h+C2iz5oIZkGR2d58STQ32OjBktn2W+lcmgtYgxvlI5QQzN+hXsS/HvclVSCjDPJ88JfDoQDJAIi0VFlLSUcmoU2YgM2d6BAxQdi3FcKhYc+lwIPG1j5b/xmfPc1/XAiprIOQOYRVNCnB7SR29xcmN600sbdaKN2CDJwxa2gs3P8ZCwbV2XMnQMsqM3Ur0nbwKlpDDgP03QaS3SAK01+mZRxnt7Vo93OxZLrgcLYlJoRoqDhF1zvC6d57PloCADgdVHdWay1WljdrwsRm5dNlKYJC1Qj3go5avZEYbTzxDW2m2QPxyhJfUcK/iK47B5l1K7GDnglr7pAVNrH71nklQFjVUwQbf0hiu3Wd8YAOR7i7drziD/OLkYhX10yKNW22P1tuulXGe/jgeyX/v87xkN4A+wAYS1KmpHBIkC84mrVFdAp0WagD4gQuPHEPHdjvH/XHAqiJreuMTu93Lw/nv773xJP/u3P4kFxwEs69Yub9HTxMJVcHaZzcZk8kyJuNdFu91l8U0H38f6DqDuA9/nEf/wyfO9P4P+TJlZ4sGAAA=</values>
@@ -791,16 +917,16 @@
         <display_text/>
         <flow display_value="Enterprise Offboarding Process">9a3202fa93c38310f7f270d19dba1054</flow>
         <generation_source/>
-        <order>4</order>
+        <order>6</order>
         <parent_ui_id>ec8b5d8a-4c48-4ac3-b8cf-ffc1e8d3abfd</parent_ui_id>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-09-04 14:52:55</sys_created_on>
         <sys_id>263202fa93c38310f7f270d19dba10e6</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Enterprise Offboarding Automation">94cda6a2934b0310f7f270d19dba1034</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-04 14:52:55</sys_updated_on>
+        <sys_updated_on>2026-09-07 17:28:50</sys_updated_on>
         <ui_id>636e3c8c-da4a-4989-b6b2-472dddbda815</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1TTU/jMBD9K5XPbZWPki29ragqrcSCVFAvLIom9gQsOR/YDrRb9b/vJHHSUlgEEodF2tw8M89+b/LezZZJwWZsgsLzT/2Ih34YBp4XTCd+EoWJH4gQEH02ZDlkSJMaeaEFnR9BVXVhuw38MJnwYDqKMIpGE0KNIIXp6ARCP4hw8o1H0bjF7XaEFNKUCjYrdwFV+L1UQmPOZje3Q1aCprcsajbbHrXeS1ZBgopGlx3bY/Z2U9ZnUfAqw9zGsiueO+TcdQY/5tQhUE3H94YM1xZzgUQkBWVwyDLIBdhCb9jM6ooKGkFc5mrTT9zL3LZCM1gb+Ztennj1XIqkjLsl9MfYLagtp3OwcEU3c1vpfl+F5GjanQhMoVL27LDWDlyWVhZ5C7GQqA5dqCrLL9qNsP6Cg/9RGSKBZa2zZt7KSq/ui6dlR3Ih82YlTqIqOKj+BNZqmVS2prNlqLDZcQZlKfO7uNTFo2zARCUb3yk6jFNVPNGbRt7lY+A17zFtFcYLqs+b8gq0rEX8pGsIvBsyszFnCozZS6Edxg9VzaQV5iTEzRaaFcSNE2ow17K03+mpR3TEd0MXBy9402G4N1STAnMQB2PB4q/K80IRvvT6Ufdjvn8Hq873C4lKmFdoOt9bzIiWxbil/dz61645WLlm7/5Ps78fec33PwT/bgiSk7fsxk/37jq4cx+EdUxgAoYxvY26jL24SNOkAC1q/RofyJH2ZUQu90ODZT/0saS8g3qXlOvGEq9L6cJyXDs/xA4u2oYLycmnZWT6ldLhZHz5ePwtFLd/ANweHWoqCQAA</values>
@@ -839,6 +965,30 @@
         <display_text/>
         <flow display_value="Enterprise Offboarding Process">9a3202fa93c38310f7f270d19dba1054</flow>
         <generation_source/>
+        <order>4</order>
+        <parent_ui_id>44810f47-bf1b-4e07-9188-c9e3e7e36ca5</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-07 17:28:50</sys_created_on>
+        <sys_id>77a24a7793074710f7f270d19dba10a8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Enterprise Offboarding Automation">94cda6a2934b0310f7f270d19dba1034</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-07 17:28:50</sys_updated_on>
+        <ui_id>9e7a9f0e-281d-4408-a323-8cd410e8d6f7</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VVXW/aMBT9K8jPUZQQilreJhjSpK6V2qovXRc58Q1Ycz5mO7QZ4r/v2nFCBFVHpb6g8eb75XNOzsVPW8IZmZEJsCC8CqdpFEbROAjGl5MwmUZJOGYRBQiJRwqaA1ZKSEvJ8LyhojaB7XYugWpgceintZRQaF9TuQIdQ16JsgHY7bCecVUJ2jy6Noykay4Y1pPZ07NHKirxBg2SzLYHqVMhCpqAwNK7DuMhZt1U5szKtM4RZ8y74LXrXLjM6NsCM9hk4ISBR+BVQ8EAgWRUKPBITgtGdSkbMtOyxgCKwG4L0fQVa17olmhOXxX/gzdPAlOXATJLnQj9MXYCteFsQTW9x8mprmWvV8lTUK0mDDJaCz0fxtqC20rzsmhbNE1E112KOi9uWkVIP2DwPWqFIKAyPA3yllZ2vy5f7jqQS15YSRxFUaZU9CeqteRJrQ2cLQEBVuOcVhUvVnElyw23zQgl91cCD34myhe8U/FV4dPU4PZRVeovMb6w4UcquSHxHcdg884jqlFzQZXaU0EN49+1QdIScxRiq4KVILZOMM2p5JX+gldtwAHfeW4Jkov3HJZe7Q01mLlfBMQVo4Ty2OsPdh1GX906fNj6JwDrrP9gP/jbQJ37j2LXw97RTZtw3r/4NO9fnpP3HY2zN/+/LB+M3/1THTjJulwN7E7twB91EETMDv2JgvzCZ6CsdRs13jhehpP7PrYjJzDpdmTJQTD1BrVuQcy7hS9a3FI9WBKXHD26ZP9IfNqmhNPA/s5oX/6bt+L5LzSxzHIyCQAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=77a24a7793074710f7f270d19dba10a8"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Enterprise Offboarding Process">9a3202fa93c38310f7f270d19dba1054</flow>
+        <generation_source/>
         <order>2</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
@@ -854,11 +1004,86 @@
         <values>H4sIAAAAAAAA/+1TXU/bMBT9K5WfqyppAEHfJiqkSQwkQLwwZt3YN2DNiYPtFLqq/33XiZOWjyHQeBjS8nY/fc7JPVcrpiSbsR2USXqQ7okszbJpkkz3d9J8L8vTqcwAMWVjVkGJ1GlRGCspXoBuQmK1OrQIHiVPJ6KxFiu/XlNdKldrWF7GNsqIW6Ul1dns6nrMarC00aNls9WT0lshachRU+tZj+kpRr+sQyyNaErCxVWfPI6T81gZfZ1ThYYCnDQZM3zwWEkkIAVoh2NWQiXBG7tkM28bShBpeVrp5dBxqyrfES3hwalf9PJOEvoKJGYiijCEPArUpYs5eDinzcI3dtDLKIGu00RiAY32h9u5ruG09spU3YiHXPfTRjdlddIpwoYFW/+jcQQC68AzIO9oFee35v6sB3mkqlaSSFEbAXqIwHur8sYHOCuGGluNS6hrVd3w2pqFaocJSjm50RRMCm3u6U2nbqoJiIB7QqrC5Ijy8zZ9CVYFEt9oDQ2vx8wt3aEG5zZUSEN+1wQkHbFIgbcqtBLw9hLCsLCq9l/oqQVG4OtxPPpk+uqF4eag2lt3W0dPmDyWHAT9C8ctLsxPlN+bJMlkkPFHyAgI/Ljz4BvX1VzTDjx3x1/ve5+33sC899aRQi3dC1JEbxFsIuKRd9I8ttdFLI4uY3Fw2IdZLN1L2u+/0f5do+W7r52bONhc19bOjdkeOA3TYMbpbbQ1T7gpityAlYG/xTu6SP/cVKebptHZ0PQ+p7wBeu+Ui/YkXqbSm+Vp7nh7dnTSFaJJdj/MI/ufyR2Rxqe3x59Mcf0b8Tj8Q3QJAAA=</values>
     </sys_hub_action_instance_v2>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=ae3202fa93c38310f7f270d19dba10bf"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Enterprise Offboarding Process">9a3202fa93c38310f7f270d19dba1054</flow>
+        <generation_source/>
+        <order>11</order>
+        <parent_ui_id>1b892d78-30a8-4a8d-a600-ced55ef97c68</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-07 17:28:50</sys_created_on>
+        <sys_id>b7a24a7793074710f7f270d19dba10ac</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Enterprise Offboarding Automation">94cda6a2934b0310f7f270d19dba1034</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-07 17:28:50</sys_updated_on>
+        <ui_id>f3eaa389-b1c8-4a7f-acaf-fe81d24606ed</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VVXU/bMBT9K5afoyihrIK+TSD2MmACxAsb0U1801pz7Mx2Cl3V/77r2C0VH9om7QUtT73f59yc3N6tuRR8xqclFh+Oy2kzKSeTg6I4ODos6+mkLg/EBBAPecY1dEiZHmqF1WhkfAlqiE73nUwhXa9gdZu8N9HbLKQSFjWf3X3LeA+Waj1aPls/C/0pEgU1qrE/QXkDmV/1r/o+79eyixgwVgQ8Rcbx0aMWSEBaUA4z3oEW4I1d8Zm3AzksgrjUarXLWEjtqSEPuY9O/qSxR0XIa5GYNRhjO7NKS4ru9hQ8XFPnxg82pTYLIxt0cScCWxiUP9n3xYTL3kujY8lIM1UbNXT6Iq6E7xps3wl5BkcgsA88A/JEo71emIerLcozqceVpKAyDaidBd5bWQ8+4FlzVNhRo6qDvpd6XvXWLOVYTFi6fK7IyFtlHmiok3OdQxOA57RWyM/Ifzq6b8HKwOKc2lDxJuNu5U4UOPfEhZZY/RgCksgscajiGkJJY2XvP9KAJSa4m2wrcYHF8ZvCKusnIY2qdnvyJs3SmK9DUUzEen1CEvAoqjJvBhsCm829WxjrA8ERANGLyVdI+IkcOwcNc7SsNTb9FuyTNUPv7l8U3SyQmbatDZAsBcOuV2aFyKRjSjqazMAxYN1eS6OpxLLOWGTzsW3OvigajsziUuIDIxmzhAXIRwpsxte2bZO//Hz/E9Z/eZ5+r6LteTqTqIR7RVbb2xQ40k6rKLNn9ykF2W0KphtV/qsbVU6L8XlHlyqSe/eHau8/6Y2T9e0XkyBsTZcHAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=b7a24a7793074710f7f270d19dba10ac"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Enterprise Offboarding Process">9a3202fa93c38310f7f270d19dba1054</flow>
+        <generation_source/>
+        <order>9</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-07 17:28:50</sys_created_on>
+        <sys_id>fba24a7793074710f7f270d19dba10aa</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Enterprise Offboarding Automation">94cda6a2934b0310f7f270d19dba1034</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-07 17:28:50</sys_updated_on>
+        <ui_id>4fe9d29e-aa77-4bb2-b7a3-6f9d4c654be9</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VX30/bMBD+V6o8R1VCS2G8TUVMk/ghAeJlQ5ZjO601185sp1Cq/u87x04atYG1U5FAe/Td2f7u7vucy49lxGl0Fp3mwyTB6fHpSZIMBkkyGg0ITrNsMCJZkg2zKI4knjGItDgTDJZzLEq3NguDSsM0mmhVFuCg3BQCLx6C/1swkykXVDMZnf14jKMCazjOMh2dLTdcu+IROGMCQu8DoA18dlE0S1T5vO2yva137R1KUwcliSP2bJmkDDDkWBgWRzMsKbZKLxqLZpjeSLE2TLm0cGLkgp8Nf4F7TxMXlzPIijDva5YoVMib83Ns8Z3VJbGlDqFkqjhhxteDshyXwo7bNh9wU1iupN/i0/a7lShn8tqXI2oOqBsCFugXoqxwiTrkIY38bqqebmuUF1xWNQlOoQgWzQpbq3lWWodnGTHBZnAQmuGi4HKCCq3mvNoMWGb9iYBFPxfqCS41fCL7mDjgfagr7l+A/bwyP2DNXRZXcAxsBkBcAEOQb6FRpa5KOUdElKZyaCyNPytaxY6JY4GNWWcOJUe/S4fb1yFkjHzR3BaieWG/whFzFpJbxTtJ4jhZU44oSblDYVq6AN7gCdM/S9hNl8sxsMYyitI+KTUU2PYt1hNmEZsVQi0YW622tfNPZxxSaFWWtdDG7TS7Ug+S27Jddh0QJJceTHKQx2cSHVz+8TS3v4p8Cf4iJXLyJsmO13wySlvka9nS0rYy9ub5DhBqnt84ZvayxWuoAs1zzgTt+rJcOMfGl+Xo//yyfEiSAyCKfPe4FFxWYwIAfS/2J28/sV82eFbRqzVfORs2ZFsDuGdV72VvJewAp1bCHdzdu/d4OiDW731Fmc23vjYGAQwOJoDB0WEEsGzSbArZUfN6MnTdrONfXDzejAcKtjakqy6B7XVnuu+dR6ttAQ/2UnCbbN5z/grnDjxCvqLI+D2fgClsDfchr1/0xCnMU+vb6yiq7BMWv7r8gXGoblSV3juMo8M3ZTtK1xIFpSDNDDSvPY+mMB5tvyFp7M37PSE7YKnLcYWfe7cNmE6E4RkBpbNJ1Zv2O/K9sQaSDw84MH7YL2ndrE4N1j37FH9xhxPC4x80ZSeerBAAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=fba24a7793074710f7f270d19dba10aa"/>
     <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=9a3202fa93c38310f7f270d19dba1054"/>
-    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=9a3202fa93c38310f7f270d19dba1054^sys_idNOT IN1e3202fa93c38310f7f270d19dba10bb,8a8b2f0393830310f7f270d19dba1067"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=9a3202fa93c38310f7f270d19dba1054^sys_idNOT IN1e3202fa93c38310f7f270d19dba10bb,33a24a7793074710f7f270d19dba10ae,8a8b2f0393830310f7f270d19dba1067,b7a24a7793074710f7f270d19dba10b5"/>
     <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
         <attributes/>
         <block display_value="">5e1cf97e93838310f7f270d19dba10ac</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Enterprise Offboarding Process">9a3202fa93c38310f7f270d19dba1054</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>5</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-04 14:52:54</sys_created_on>
+        <sys_id>1e3202fa93c38310f7f270d19dba10bb</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_scope display_value="Enterprise Offboarding Automation">94cda6a2934b0310f7f270d19dba1034</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-07 17:28:50</sys_updated_on>
+        <ui_id>ec8b5d8a-4c48-4ac3-b8cf-ffc1e8d3abfd</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1Vy27bMBD8FYNnQZCs2Gh8CxwEKNA2RRPk0gbCiqRsIhSp8mFHFfzvXephG7GL1miPvYnD3eHMaii1RHtXe2cf9Y21YqXI4utzRIQKGD63REHFyYJQrZhwQisSkQ1IH7C2XRoOjrM8jak3hisXg7Xc5VR75Xa7bz5JMpZgCxO2ltA8Xd5J10IyLOiF1WBQj+OGLNo3W4Ih8TXMylmazGg2nWfTJJm+u0qLeVakU5YBv5ojoYSCSyxdHjk6Y9I1dYCsM0KthvWHofVhBLVhQco0iQh/dVwxjiJKkJZHpALFwGnTkIUzHgF0zO6VbPYVa6EcspFQ+2rFDx6YkiRUlhx9Ud7v7pf5MMYeLm/BAUrx1HkzlNK1FpTbfiKMl+ClWx5jfcF93bnsWhwUcuzW0lfqUz8MsicY3xoi3qIIXgenQftgpHxY6+2XUeWdUN1Uhk2pKcj9ChzOrvAu6GkJl7xCoryCusaJ5rXRG9E1o5YqXklcxKXUWzw0pDMGGoTHOFiI7xC/7eAnMCK4+Ig02IxZsLmlRtSjt+5wsouIbexSYtIOHnG4+XcfFPaOB295P57Q0hHd4MEbPtjYRaf3Iu+Aw+VYrjl9mXxGNjQ2uQnhtqcX4RdVl4W+TKBMr2l6PvSQnQv9pM/yafRHH5fkP/1N/gfkjy7AbPY//3+d/yCzACto3n3JkS58gv7hBXgOQe8P3Q+bCovaHgP2fvx/hI0GEyXoMbTV5iW4OmC7n52Tyq6JBgAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">5ba20a7793074710f7f270d19dba10c0</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -872,15 +1097,15 @@
         <parent_ui_id/>
         <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-09-04 14:52:54</sys_created_on>
-        <sys_id>1e3202fa93c38310f7f270d19dba10bb</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_created_on>2026-09-07 17:28:50</sys_created_on>
+        <sys_id>33a24a7793074710f7f270d19dba10ae</sys_id>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="Enterprise Offboarding Automation">94cda6a2934b0310f7f270d19dba1034</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-05 17:11:29</sys_updated_on>
-        <ui_id>ec8b5d8a-4c48-4ac3-b8cf-ffc1e8d3abfd</ui_id>
+        <sys_updated_on>2026-09-07 17:28:50</sys_updated_on>
+        <ui_id>44810f47-bf1b-4e07-9188-c9e3e7e36ca5</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/+1Vy27bMBD8FYNnQZCs2Gh8CxwEKNA2RRPk0gbCiqRsIhSp8mFHFfzvXephG7GL1miPvYnD3eHMaii1RHtXe2cf9Y21YqXI4utzRIQKGD63REHFyYJQrZhwQisSkQ1IH7C2XRoOjrM8jak3hisXg7Xc5VR75Xa7bz5JMpZgCxO2ltA8Xd5J10IyLOiF1WBQj+OGLNo3W4Ih8TXMylmazGg2nWfTJJm+u0qLeVakU5YBv5ojoYSCSyxdHjk6Y9I1dYCsM0KthvWHofVhBLVhQco0iQh/dVwxjiJKkJZHpALFwGnTkIUzHgF0zO6VbPYVa6EcspFQ+2rFDx6YkiRUlhx9Ud7v7pf5MMYeLm/BAUrx1HkzlNK1FpTbfiKMl+ClWx5jfcF93bnsWhwUcuzW0lfqUz8MsicY3xoi3qIIXgenQftgpHxY6+2XUeWdUN1Uhk2pKcj9ChzOrvAu6GkJl7xCoryCusaJ5rXRG9E1o5YqXklcxKXUWzw0pDMGGoTHOFiI7xC/7eAnMCK4+Ig02IxZsLmlRtSjt+5wsouIbexSYtIOHnG4+XcfFPaOB295P57Q0hHd4MEbPtjYRaf3Iu+Aw+VYrjl9mXxGNjQ2uQnhtqcX4RdVl4W+TKBMr2l6PvSQnQv9pM/yafRHH5fkP/1N/gfkjy7AbPY//3+d/yCzACto3n3JkS58gv7hBXgOQe8P3Q+bCovaHgP2fvx/hI0GEyXoMbTV5iW4OmC7n52Tyq6JBgAA</values>
+        <values>H4sIAAAAAAAA/+1Vy27bMBD8FZdnWdDDVpPcjAQBAqQJ0Bi5NIGwolY2UYpUSSqJa/jfu5RkO2hdxEHbW2/mcLk7M9qB10y3rmmdneuZtWKh2NmXx4AJ5TH6vWaiZGesiqCKT3nM0yRLkyhKTiZxkaVFnJQpIKQsYApqpEquVSmc0CrvgIA9gWz9xVU1moNZoBsJO7q5nY9mZS0UFZTCNhJW92/V8aWQpcGBYQOG+js07Gz909WxjCUUKKn0fEt5dN0hv9fiVo3HrTNCLYbz9dDlbgtqU3pWcRQwfHGoSiQ+FUiLAatBleC0We0Qg1DeKrkHlkI5asd88YsV32lgMp36wgpJIsf+cnfMB/96uLoAB0Sl5a41QylfasHR9uaUWEEr3flrrC+4bbzU/omDQm5fa9nW6qZ3hO0abD8XIa0lEth4pZ76oKO6W+rnz1uWl0J1rgyXUnOQuxM48q5oneezZiixpkZ5DU1DjuaN0U+ie0xc6nAh6RBWUj/TUL+xIXBPPCRjIbwk/KKD78EIr+ITtaHHPc0CrOB5t93UjmxCtgmYXdlzCdbuRZK7+bfWU+wlD+Ly3h//hBvRuBlNfsJBxyYYwnIK02oaR9PDqzfJDizYq5ys10mcFhOenIwzzLLxhB6OoYKT8RTSOMlw8pFnWWiQ06KFrotKjnUj9QoxJJGm29bN5sNDG0VpCYdj9q/GvC+lR1j1S0oP2/eeaCZvRNPvxZHJjKLofzT/OJrC5n2gBm3d8L+YzEcfr37mzmsuLFGbe+xq+2/nL1a0XIK/hp61+epF7bHND2/3lFc3BwAA</values>
         <workflow_reference/>
     </sys_hub_flow_logic_instance_v2>
     <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
@@ -894,20 +1119,47 @@
         <flow_variables_assigned/>
         <generation_source/>
         <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
-        <order>5</order>
+        <order>7</order>
         <outputs_assigned/>
         <parent_ui_id/>
         <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-09-05 17:11:29</sys_created_on>
         <sys_id>8a8b2f0393830310f7f270d19dba1067</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Enterprise Offboarding Automation">94cda6a2934b0310f7f270d19dba1034</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-05 17:11:29</sys_updated_on>
+        <sys_updated_on>2026-09-07 17:28:50</sys_updated_on>
         <ui_id>34d2f0e2-e8c8-4c61-ae47-fd9145a853ef</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">d7a20a7793074710f7f270d19dba10cc</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Enterprise Offboarding Process">9a3202fa93c38310f7f270d19dba1054</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>10</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-07 17:28:50</sys_created_on>
+        <sys_id>b7a24a7793074710f7f270d19dba10b5</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Enterprise Offboarding Automation">94cda6a2934b0310f7f270d19dba1034</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-07 17:28:50</sys_updated_on>
+        <ui_id>1b892d78-30a8-4a8d-a600-ced55ef97c68</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1Vy27bMBD8FYNn2ZAl26l9C5ymCJA0QBPk0gbCilrZRClS5SOJa/jfu9TDDpoUddoeezNnl7szIw68Zdq72jt7q0+tFSvFFp/vIyZUwOj3lomCLVgZQzme8zFPk1maxHHybjLOZ2k+TooUEFIWMQUVUifXqhBOaJU1QMQeQPpQuCgH76ta6g3iQNgBDD4Y7evBFShYoaHGQthawubu2H6+FrIw2DGuwdA+R5XF9qfSsQok5CipddlLGFw2yK+1uU0dcOuMUKvufNlNuelBbYrAahxHDJ8cqgKJTwnSYsQqUAU4bTZ7xCAU10oegLVQjsax0PxkxXdamEynobFEksixLe6PWedjC5dn4ICoeO686Vr5WguOtjWnwBK8dMvnWNtwXQep7RUHuexva+kr9bF1hO0H9J+NEG+JBNZBaaDe6Shv1vrxU8/yXKjGla4oNQe5P4Ej73LvAp8tQ4kVDcoqqGtyNKuNfhDNZeJSjVaSDqNS6kdaGl7wCHggPiJjYXRO+FkD34ERQcUVjWneT6CZgxU8a147jSObkO0iZjd2KcHag0hyN/vmA8VWcicua/0JV7gRtTulzQ/Y6dhFXXjmMC2n43j6+tObzF55YM9ys91OSpwXyRyHACcnw0meJ8P8BNLhrJwXEz6bTnKcj5baK7fbffFxnGL8Mk5/OuZtKTtC6ouUvS7/LdFKfhOt8F2PTFYcx/+j9dfREjZrA9Fpa5b/w2Tdh3i0O/dec2GJ2m3ALvp/r1DY0OMS/Dn0qM3XIOqA7X4A49xbrwcHAAA=</values>
         <workflow_reference/>
     </sys_hub_flow_logic_instance_v2>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=9a3202fa93c38310f7f270d19dba1054"/>
@@ -971,18 +1223,18 @@
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"ea3242fa93c38310f7f270d19dba1020","name":"plan","plan_signature":null}}</plan>
         <plan_id>4c2a3d7a93838310f7f270d19dba1012</plan_id>
-        <snapshot>05fbeb4393830310f7f270d19dba100c</snapshot>
+        <snapshot>c693cef793074710f7f270d19dba101c</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-09-04 14:52:55</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ea3242fa93c38310f7f270d19dba1020</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-05 17:11:30</sys_updated_on>
-        <trigger display_value="">2e8b6f0393830310f7f270d19dba1025</trigger>
+        <sys_updated_on>2026-09-07 17:28:51</sys_updated_on>
+        <trigger display_value="">0cb28a7793074710f7f270d19dba1047</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=4c2a3d7a93838310f7f270d19dba1012"/>
 </record_update>
